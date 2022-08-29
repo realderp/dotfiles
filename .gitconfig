@@ -1,0 +1,22 @@
+[user]
+	email = Andy_Tsai@quantatw.com
+	name = Andy_Tsai
+[color]
+	ui = auto
+[push]
+	default = simple
+[alias]
+	br = branch
+	co = checkout
+	st = status
+	cm = commit
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	ldg = log --decorate --graph
+	df = diff
+	mg = merge
+
+[url "ssh://Andy_Tsai@gerrit.pelotime.com:29418"]
+	insteadof = ssh://gerrit.pelotime.com:29418
+[core]
+	editor = vim
