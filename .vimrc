@@ -41,10 +41,11 @@ function! ToMouseMode()
 endfunction
 
 nmap <F2> :call ToMouseMode()<CR>
-nnoremap <F3> :set nu! nu?<CR>
-map <F4> :NERDTreeToggle<CR>
-map <F5> :TagbarToggle<CR>
-nnoremap <F6> :set list! list?<CR>
+nnoremap <F3> :set list! list?<CR>
+nnoremap <F4> :set nu! nu?<CR>
+nnoremap <F5> :set wrap! wrap?<CR>
+map <F6> :NERDTreeToggle<CR>
+map <F7> :TagbarToggle<CR>
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-h> <C-w>h
