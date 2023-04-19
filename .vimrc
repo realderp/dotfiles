@@ -46,7 +46,7 @@ nnoremap <F4> :set nu! nu?<CR>
 nnoremap <F5> :set wrap! wrap?<CR>
 map <F6> :NERDTreeToggle<CR>
 map <F7> :TagbarToggle<CR>
-map <C-j> <C-w>j
-map <C-k> <C-w>k
-map <C-h> <C-w>h
-map <C-l> <C-w>l
+map <A-down> <C-w>j
+map <A-up> <C-w>k
+map <A-left> <C-w>h
+map <A-right> <C-w>l
