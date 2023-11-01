@@ -1,6 +1,6 @@
 # Personal setting
 # You can modify at here
-VM_PATH='AndyTsai@10.242.116.6'
+VM_PATH='AndyTsai@10.242.20.24'
 REMOTE_PATH=/home/AndyTsai/vm
 alias ..='cd ..'
 alias ...='cd ../..'
@@ -8,7 +8,7 @@ alias adb='adb.exe'
 alias mv='mv -i'
 #alias cp='cp -i'
 alias clr='clear'
-alias bu='ssh 10.242.116.6'
+alias bu='ssh 10.242.20.24'
 # add alias of git at here
 alias g='git'
 alias gl='git log --decorate --graph'
