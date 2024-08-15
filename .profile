@@ -5,10 +5,12 @@ REMOTE_PATH=/home/AndyTsai/vm
 alias ..='cd ..'
 alias ...='cd ../..'
 alias adb='adb.exe'
+alias ollama='ollama.exe'
+alias fastboot='fastboot.exe'
 alias mv='mv -i'
 #alias cp='cp -i'
 alias clr='clear'
-alias bu='ssh 10.242.20.24'
+alias vm='ssh 10.242.20.24'
 # add alias of git at here
 alias g='git'
 alias gl='git log --decorate --graph'
@@ -23,6 +25,7 @@ alias gf='git fetch'
 alias gps='git push'
 alias gpl='git pull'
 alias gbr='git branch'
+alias pushtovm="scp -r $VM_PATH:$REMOTE_PATH/"
 
 # Start from ~
 cd ~
