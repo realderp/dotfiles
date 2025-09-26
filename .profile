@@ -1,35 +1,3 @@
-# Personal setting
-# You can modify at here
-VM_PATH='AndyTsai@10.242.20.24'
-REMOTE_PATH=/home/AndyTsai/vm
-alias ..='cd ..'
-alias ...='cd ../..'
-alias adb='adb.exe'
-alias ollama='ollama.exe'
-alias fastboot='fastboot.exe'
-alias mv='mv -i'
-#alias cp='cp -i'
-alias clr='clear'
-alias vm='ssh 10.242.20.24'
-# add alias of git at here
-alias g='git'
-alias gl='git log --decorate --graph'
-alias gst='git status'
-alias gco='git checkout'
-alias ga='git add'
-alias gcm='git commit'
-alias gdf='git diff'
-alias gmg='git merge'
-alias grst='git reset'
-alias gf='git fetch'
-alias gps='git push'
-alias gpl='git pull'
-alias gbr='git branch'
-alias pushtovm="scp -r $VM_PATH:$REMOTE_PATH/"
-
-# Start from ~
-cd ~
-
 # ~/.profile: executed by the command interpreter for login shells.
 # This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login
 # exists.
@@ -50,4 +18,3 @@ fi
 
 # set PATH so it includes user's private bin directories
 PATH="$HOME/.bin:$HOME/.local/bin:$PATH"
-

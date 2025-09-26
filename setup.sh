@@ -2,6 +2,7 @@ DOTFILES=(
     .vimrc
     .profile
     .gitconfig
+    .bash_aliases
 )
 
 cd ~
