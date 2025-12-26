@@ -9,7 +9,7 @@ cd ~
 rm ${DOTFILES[*]} 2>/dev/null
 for i in ${DOTFILES[@]}
 do
-    ln -s ~/dotfiles/$i $i
+    ln -s ~/.dotfiles/$i $i
 done
 
 #Install Vim
